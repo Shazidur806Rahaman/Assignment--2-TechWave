@@ -3,22 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-02 techwave</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Assignment-02-techwave</title>
 </head>
-<body>
-    <section>
-        <div>
-
+<body class="bg-[#1A0B2E]">
+    <header class="bg-[#1A0b2e] border-b">
+        <div class="flex flex-row justify-between pl-[100px] pt-[30px] pr-[100px] pb-[20px]" >
+            <div><h1 class="text-white text-3xl font-bold" >Tech<span class="bg-gradient-to-r from-[rgba(247,233,63,1)]
+                 via-[rgba(251,9,180,1)] 
+                 to-[rgba(145,0,248,1)] 
+                 bg-clip-text text-transparent text-3xl font-bold">Wave</span></h1></div>
+            <div class="text-white flex gap-12">
+                <a class="hover:text-[rgba(247,233,63,1)]" href="About">About</a>
+                <a class="hover:text-[rgba(251,9,180,1)]" href="Episodes">Episodes</a>
+                <a class="hover:text-[rgba(145,0,248,1)]" href="Host">Host</a>
+            </div>
+            <div class="baton">
+            <button class=" px-6 py-2 rounded-full text-white
+  bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))]">Subscribe</button>
+            </div>
         </div>
+    </header>
+    <section class="relative w-full h-screen overflow-hidden"> 
+      <div class="w-full h-full object-cover">
+        <img src="assets/hero-bg.png" alt="">
+      </div>
+        <div class="absolute flex items-center justify-center top-0.5 left-0.5 -translate-x-1/2 -translate-y-1/2" >
+          <img src="assets/hero-circle.png" class="absolute inset-0 m-auto w-70 h-70" alt="">
+           <span class="absolute bg-amber-50">NEW</span>
+          <img src="assets/microphone.png"  class="absolute inset-0 h-auto w-24" alt="">
+        </div>
+      
     </section>
-   <section>
-    <div>
-        <img src="assets/hero-bg.png" alt="wave from both sides ">
-        <div>
 
+
+
+   <section class="text-white grid gap-6 grid-cols-3 grid-rows-3 ml-32 mr-28 p-4 ">
+
+   <div class=" pt-32 row-span-2 border-[rgba(53,17,101,0.4)] p-6 rounded-3xl bg-[rgba(53,17,101,0.4)] ">
+        <img src="assets/headphone.png" alt="">
+        <h1 class="text-xl font-bold mt-3.5 ">Premium Audio Quality</h1>
+        <p class=" text-gray-300 mt-3.5 font-inter text-sm font-normal tracking-normal text-left">Experience crystal-clear sound with <br>
+            proffesional-grade reecording <br> equipment 
+            and expert audio <br> engineering
+            .Every episod is masterd <br> for optiimal listening across 
+            all devices <br> and platforms.</p>
         </div>
-    </div>
+        
+        <div class=" bg-[rgba(53,17,101,0.4)] col-span-2 border-[rgba(53,17,101,0.4)] p-6 rounded-3xl ">
+            <img src="assets/device.png" alt="">
+            <h1 class="text-xl font-bold mt-3.5  ">Mobile Friendly</h1>
+            <p class=" text-gray-300 mt-3.5">Listen on the go with seamless mobile erxperience and ofline downloads.</p>
+        </div>
+        
+        <div class=" bg-[rgba(53,17,101,0.4)] col-span-2 border-[rgba(53,17,101,0.4)] p-6 rounded-3xl"> 
+            <img src="assets/location.png" alt="">
+            <h1 class="text-xl font-bold mt-3.5 ">Global Community</h1>
+            <p class=" text-gray-300 mt-3.5">Connect with tech enthusiasts from ever 120 countries worldwide.</p>
+        </div>
+       
+        <div class="bg-[rgba(53,17,101,0.4)] col-span-2 border-[rgba(53,17,101,0.4)] p-6 rounded-3xl " >
+            <img src="assets/resource.png" alt="">
+            <h1 class="text-xl font-bold mt-3.5 ">Exclusive Interviews </h1>
+            <p class=" text-gray-300 mt-3.5">Get unprecedented access to industry titans, sartup founders, and tech visionaries .our host <br>
+            secures exclusive conversations you won't find anywhere else, diving deep into their <br>
+        journeys, failures , and success strategies.</p>
+        </div>
+        
+        <div class="bg-[rgba(53,17,101,0.4)] border-[rgba(53,17,101,0.4)] p-6 rounded-3xl">
+            <img src="assets/resource.png" alt="">
+            <h1 class="text-xl font-bold mt-3.5 ">Rich Resources </h1>
+            <p class=" text-gray-300 mt-3.5">Access show notes, transcripts, and <br> additional
+                 learning materials for every <br> episod.</p>
+        </div>
+
+
+   </section>
+   <section class="video-card">
+
+   </section>
+   <section class="meet-host">
+
+   </section>
+   <section class="footer">
+
    </section>
 </body>
 </html>
